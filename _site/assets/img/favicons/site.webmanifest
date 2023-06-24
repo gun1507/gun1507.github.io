@@ -1,9 +1,9 @@
 
 
 {
-  "name": "Chirpy",
-  "short_name": "Chirpy",
-  "description": "A minimal, responsive and feature-rich Jekyll theme for technical writing.",
+  "name": "Chirpy 설치 테스트",
+  "short_name": "Chirpy 설치 테스트",
+  "description": "focuschange, chirpy test",
   "icons": [
     {
       "src": "/assets/img/favicons/android-chrome-192x192.png",
