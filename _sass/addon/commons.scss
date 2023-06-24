@@ -726,7 +726,7 @@ $sidebar-display: "sidebar-display";
       &:last-child {
         a {
           position: relative;
-          left: $cursor-width / 2;
+          left: $cursor-width * 0.5;
           width: 100%;
         }
 
@@ -752,7 +752,7 @@ $sidebar-display: "sidebar-display";
 
     @for $i from 1 through $tab-count {
       $offset: $tab-count - $i;
-      $top: -$offset * $tab-height + ($tab-height - $tab-cursor-height) / 2;
+      $top: -$offset * $tab-height + ($tab-height - $tab-cursor-height) * 0.5;
 
       @if $i < $tab-count {
         > li.active:nth-child(#{$i}),
