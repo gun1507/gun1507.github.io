@@ -2,9 +2,9 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>http://localhost:4000/</id>
-  <title>Chirpy 설치 테스트</title>
+  <title>Chirpy 설치 테스트33</title>
   <subtitle>focuschange, chirpy test</subtitle>
-  <updated>2023-06-25T14:16:33+09:00</updated>
+  <updated>2023-06-25T14:29:27+09:00</updated>
   <author>
     <name>focuschange test</name>
     <uri>http://localhost:4000/</uri>
@@ -24,7 +24,7 @@
     <link href="http://localhost:4000/posts/welcome/" rel="alternate" type="text/html" title="Welcome" />
     <published>2021-12-23T00:00:00+09:00</published>
   
-    <updated>2023-06-25T13:29:06+09:00</updated>
+    <updated>2023-06-25T14:16:58+09:00</updated>
   
     <id>http://localhost:4000/posts/welcome/</id>
     <content src="http://localhost:4000/posts/welcome/" />
