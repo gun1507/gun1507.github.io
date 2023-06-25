@@ -1,5 +1,5 @@
 ---
-title: 따라 하다 보면 완선 Github Blog 만들기_1
+title: 따라 하다 보면 쉬운 Github Blog 만들기_1
 date: 2023-06-25 22:50:13 +0900
 lastmod: 2023-06-25 22:50:13 +0900
 categories: [Blog, jekyll]
