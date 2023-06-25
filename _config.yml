@@ -18,9 +18,9 @@ timezone: Asia/Seoul
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Chirpy 설치 테스트11                          # the main title
+title: Guhyeon's Devlog                          # the main title
 
-tagline: chirpy 설치하면서 테스트 중입니다.   # it will display as the sub-title
+tagline: 공부하며 실패를 통해 얻은 지식을 공유하고 싶습니다.   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   focuschange, chirpy test
@@ -29,7 +29,7 @@ description: >-                        # used by seo meta and the atom feed
 url: 'https://gun1507.github.io'
 
 github:
-  username: focuschange-test
+  username: gun1507
 
 twitter:
   username: twitter_username            # change to your twitter username
@@ -37,12 +37,12 @@ twitter:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: focuschange test
-  email: focuschange.kim@gmail.com
+  name: gun1507
+  email: kgun1507@gmail.com
   links:
     # The first element serves as the copyright owner's link
     - https://twitter.com/username      # change to your twitter homepage
-    - https://github.com/username       # change to your github homepage
+    - https://github.com/gun1507       # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
@@ -80,7 +80,7 @@ theme_mode:   # [light|dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: '/assets/img/myava.jpeg'
 
 # boolean type, the global switch for ToC in posts.
 toc: true
