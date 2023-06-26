@@ -17,7 +17,7 @@ mermaid: true
 
 <br>
 
-<h2> repository(저장소) 생성 </h2>
+<h2> 1. repository(저장소) 생성 </h2>
 ---
 ![깃헙 저장소 생성](/assets/img/github-create-repository.png){:style="border:1px solid #eaeaea; border-radius: 7px; padding: 0px;" }
 Repository Name 에는 `{Owner}.github.io`를 입력합니다.\
@@ -30,7 +30,7 @@ repository 형태는 public 으로 하고, Add a README file 를 체크합니다
 
 <br>
 
-<h2> git clone </h2>
+<h2> 2. git clone </h2>
 ---
 소스를 가져오고 싶은 곳으로 가셔서 `git clone {복사한 repository url}` 명령어를 입력합니다.
 ```bash
@@ -47,7 +47,7 @@ cd gun1507-test.github.io
 
 <br>
 
-<h2> index.html 생성 </h2>
+<h2> 3. index.html 생성 </h2>
 ---
 홈페이지에 접속 했을 때 처음 표출되는 화면입니다.\
 html 으로 구성되어 있으며, 브라우저에서 F12를 눌렀을 때 보여지는 소스입니다.\
@@ -58,7 +58,7 @@ echo "Welcome my blog" > index.html
 
 <br>
 
-<h2> 원격 저장소 push </h2>
+<h2> 4. 원격 저장소 push </h2>
 ---
 github에 push를 하기 전에 본인의 repository와 잘 연결이 되어있는지 확인합니다.
 ```bash
@@ -84,14 +84,14 @@ git push origin main
 
 <br>
 
-<h2> git repository action 확인 </h2>
+<h2> 5. git repository action 확인 </h2>
 ---
 github page > repository > Actions 경로에서 정상적으로 배포되었는지 확인 가능합니다.
 ![깃헙 배포 확인](/assets/img/github-deploy-actions.png){:style="border:1px solid #eaeaea; border-radius: 7px; padding: 0px;" }
 
 <br>
 
-<h2> 블로그 접근 및 확인 </h2>
+<h2> 6. 블로그 접근 및 확인 </h2>
 ---
 `{Owner}.github.io` 페이지 접속 후 index.html에 작성한 내용이 표출되는지 확인합니다.
 ![Welcome my blog](/assets/img/welcome-my-blog.png){:style="border:1px solid #eaeaea; border-radius: 7px; padding: 0px;" }
