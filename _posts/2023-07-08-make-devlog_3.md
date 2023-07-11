@@ -148,3 +148,4 @@ Actions의 권한 문제라고 생각이 들어 github 접속 후 Actions Settin
 ![github-workflow-permission](/assets/img/github-workflow-permission.png){:style="border:1px solid #eaeaea; border-radius: 7px; padding: 0px;" }
 > repository -> settings -> Actions -> Workflow Permissions -> Read and write permissions
 > 읽기와 쓰기 모두 가능하도록 변경합니다.
+> 
