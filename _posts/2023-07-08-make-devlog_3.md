@@ -48,19 +48,19 @@ bundle exec jekyll serve
       Generating... 
           Conflict: The following destination is shared by multiple files.
                     The written file may end up with unexpected contents.
-                    /Users/mario.kwon/Workspace/gun1507-test.github.io/_site/404.html
+                    /Users/Workspace/gun1507-test.github.io/_site/404.html
                      - assets/404.html
                      - 404.html
                     
           Conflict: The following destination is shared by multiple files.
                     The written file may end up with unexpected contents.
-                    /Users/mario.kwon/Workspace/gun1507-test.github.io/_site/about/index.html
+                    /Users/Workspace/gun1507-test.github.io/_site/about/index.html
                      - about.markdown
-                     - /Users/mario.kwon/Workspace/gun1507-test.github.io/_tabs/about.md
+                     - /Users/Workspace/gun1507-test.github.io/_tabs/about.md
                     
           Conflict: The following destination is shared by multiple files.
                     The written file may end up with unexpected contents.
-                    /Users/mario.kwon/Workspace/gun1507-test.github.io/_site/index.html
+                    /Users/Workspace/gun1507-test.github.io/_site/index.html
                      - index.html
                      - index.markdown
                     
