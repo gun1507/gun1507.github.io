@@ -17,7 +17,7 @@ mermaid: true
 
 <br>
 
-<h2> 1. Ruby 설치 </h2>
+<h2> Ruby 설치 </h2>
 ---
 ruby를 설치하기 전에 rbenv먼저 설치하겠습니다.\
 rbenv는 루비 버전을 관리할 수 있는 툴입니다.
@@ -82,7 +82,7 @@ echo 'eval "$(rbenv init -)"' >> ~/.bash_profile
 
 <br>
 
-<h2> 2. bundler 설치 및 index.html 삭제</h2>
+<h2> bundler 설치 및 index.html 삭제</h2>
 ---
 ruby에서 사용하는 패키지인 Gem의 의존성관리를 위한 의존성 관리 도구인 bundler를 설치합니다.
 ```bash
@@ -98,7 +98,7 @@ rm -f index.html
 
 <br>
 
-<h2> 3. Jekyll 설치 </h2>
+<h2> Jekyll 설치 </h2>
 ---
 [jekyll](https://ko.wikipedia.org/wiki/%EC%A7%80%ED%82%AC_(%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4)#%EC%97%AD%EC%82%AC)은 정적인 사이트 생성기라고 합니다.\
 정말 신기하게도 깃허브의 공동 설립자 톰 프레스턴 워너에 의해 개발되었습니다.
@@ -134,7 +134,7 @@ index.markdown
 
 <br>
 
-<h2> 4. 원격 저장소 push </h2>
+<h2> 원격 저장소 push </h2>
 ---
 git add, commit, push를 진행합니다.
 ```bash
@@ -145,7 +145,7 @@ git push origin main
 
 <br>
 
-<h2> 5. 블로그 접근 및 확인 </h2>
+<h2> 블로그 접근 및 확인 </h2>
 ---
 `{Owner}.github.io` 페이지 접속 후 index.html에 작성한 내용이 표출되는지 확인합니다.
 ![jekyll-base-site](/assets/img/jekyll-base-site.png){:style="border:1px solid #eaeaea; border-radius: 7px; padding: 0px;" }
@@ -154,7 +154,7 @@ git push origin main
 
 <h2> 🔥만났던 오류🔥 </h2>
 ---
-<h3> 1. jekyll이 이미 존재하고 있는 경우 </h3>
+<h3> jekyll이 이미 존재하고 있는 경우 </h3>
 
 `jekyll new ./`명령어 입력 시 오류가 나는 경우가 있습니다.\
 이 경우에는 `jekyll new -f ./`명령어를 입력해주세요.
@@ -165,7 +165,7 @@ Ensure /Users/Workspace/gun1507-test.github.io is empty or else try again with `
 
 <br>
 
-<h3> 2. push 이후 githug-pages 에서 Gemfile 의존성을 충족할 수 없는 경우 </h3>
+<h3> push 이후 githug-pages 에서 Gemfile 의존성을 충족할 수 없는 경우 </h3>
 
 build 과정에서 `Warning:  github-pages can't satisfy your Gemfile's dependencies.` 오류가 나타났습니다.
 ![깃헙 gemfile 오류](/assets/img/github-gemfile-error.png){:style="border:1px solid #eaeaea; border-radius: 7px; padding: 0px;" }
@@ -174,14 +174,16 @@ github docs에서 [내용](https://docs.github.com/en/pages/getting-started-with
 
 <br>
 
-<h4> 1) 게시 소스로 사용하려는 분기가 저장소에 이미 있는지 확인하십시오. </h4>
+**1) 게시 소스로 사용하려는 분기가 저장소에 이미 있는지 확인하십시오.**
 
-<h4> 2) GitHub에서 사이트의 리포지토리로 이동합니다. </h4>
+**2) GitHub에서 사이트의 리포지토리로 이동합니다.**
 
-<h4> 3) 리포지토리 이름 아래에서 Settings 을 클릭합니다. Settings 탭이 보이지 않으면 드롭다운 메뉴를 선택한 다음 설정을 클릭합니다. </h4>
+**3) 리포지토리 이름 아래에서 Settings 을 클릭합니다. Settings 탭이 보이지 않으면 드롭다운 메뉴를 선택한 다음 설정을 클릭합니다.**
 ![깃헙 셋팅](/assets/img/github-settings.png){:style="border:1px solid #eaeaea; border-radius: 7px; padding: 0px;" }
 
-<h4> 4) 사이드바의 "Code and automation" 섹션에서 Pages 를 클릭합니다. </h4>
+**4) 사이드바의 "Code and automation" 섹션에서 Pages 를 클릭합니다.**
+
+<br>
 
 이후에 Jekyll Configure을 진행합니다.
 ![github-jekyll-configure](/assets/img/github-jekyll-configure.png){:style="border:1px solid #eaeaea; border-radius: 7px; padding: 0px;" }
@@ -224,7 +226,7 @@ jobs:
 
 <br>
 
-<h3> 3. github Actions에서 Setup Ruby 과정 중 오류 발생한 경우 </h3>
+<h3> github Actions에서 Setup Ruby 과정 중 오류 발생한 경우 </h3>
 
 workfolw 내용을 만든 뒤 push를 진행했지만 `Error: The process '/opt/hostedtoolcache/Ruby/2.7.8/x64/bin/bundle' failed with exit code`라는 오류가 발생했습니다.
 ![github-setup-ruby-error](/assets/img/github-setup-ruby-error.png){:style="border:1px solid #eaeaea; border-radius: 7px; padding: 0px;" }
@@ -271,7 +273,7 @@ Gemfile.lock
 
 <br>
 
-<h3> 4. deploy 과정에서의 오류 </h3>
+<h3> deploy 과정에서의 오류 </h3>
 
 다시 한번 push를 진행했지만 `Error: Process completed with exit code`라는 오류가 발생했습니다.
 
@@ -282,7 +284,7 @@ Gemfile.lock
 tools/deploy.sh 가 없기 때문에 제 [저장소](https://github.com/gun1507/gun1507.github.io/tree/main)에서 다운로드 한 이후 복붙 해주세요!
 tools 전체를 복붙 하고 push 하겠습니다.
 
-<h3> 5. Sass 버전 문제로 인한 '/' 함수 오류 </h3>
+<h3> Sass 버전 문제로 인한 '/' 함수 오류 </h3>
 
 로컬에서 테스트 하기 위해 `bundle install`을 다시한번 진행하고 아래 명령어를 통해 로컬에서 실행시켰습니다.
 하지만 '/' 나누기 함수를 실행할 수 없다고 합니다. 버전 문제인듯 해요.

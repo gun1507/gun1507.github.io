@@ -17,7 +17,7 @@ mermaid: true
 
 <br>
 
-<h2> 1. chirpy 테마 다운로드 </h2>
+<h2> chirpy 테마 다운로드 </h2>
 ---
 chirpy 테마가 아닌 다른 테마를 선택하고 싶다면 [jekyllthemes.org](http://jekyllthemes.org) 에서 선택해주세요.\
 chirpy 테마를 다운받기 위해서 [jekyll-theme-chirpy](https://github.com/cotes2020/jekyll-theme-chirpy) 에서 소스를 다운받겠습니다.
@@ -34,7 +34,7 @@ chirpy 테마를 다운받기 위해서 [jekyll-theme-chirpy](https://github.com
 
 <br>
 
-<h2> 2. 로컬 환경에서 확인하기 </h2>
+<h2> 로컬 환경에서 확인하기 </h2>
 ---
 적용한 chirpy 테마를 로컬에서 제대로 뜨는지 확인해보겠습니다.
 ```bash
@@ -98,7 +98,7 @@ Configuration file: /Workspace/gun1507-test.github.io/_config.yml
 
 ![local-chirpy-theme](/assets/img/local-chirpy-theme.png){:style="border:1px solid #eaeaea; border-radius: 7px; padding: 0px;" }
 
-<h2> 3. 배포하기 </h2>
+<h2> 배포하기 </h2>
 ---
 로컬에서는 정상 확인했지만 꼭 배포를 하면 오류가 났습니다.\
 배포하기 전에 _config.yml 파일을 수정하겠습니다.
@@ -122,7 +122,7 @@ github:
 
 <h2> 🔥만났던 오류🔥 </h2>
 ---
-<h3> 1. deploy 과정에서의 오류 </h3>
+<h3> deploy 과정에서의 오류 </h3>
 
 tools/deploy.sh 파일이 없다는 오류가 나타났습니다.
 ```bash
@@ -135,7 +135,7 @@ Error: Process completed with exit code 127.
 tools/deploy.sh 가 없기 때문에 제 [저장소](https://github.com/gun1507/gun1507.github.io/tree/main)에서 다운로드 한 이후 복붙 해주세요!\
 tools 전체를 복사 붙여넣기 하겠습니다.
 
-<h3> 2. deploy 과정에서의 권한 오류 </h3>
+<h3> deploy 과정에서의 권한 오류 </h3>
 
 build 과정에서 `fatal: unable to access 'https://github.com/gun1507-test/gun1507-test.github.io/': The requested URL returned error: 403` 오류가 나타났습니다.
 
@@ -148,4 +148,3 @@ Actions의 권한 문제라고 생각이 들어 github 접속 후 Actions Settin
 ![github-workflow-permission](/assets/img/github-workflow-permission.png){:style="border:1px solid #eaeaea; border-radius: 7px; padding: 0px;" }
 > repository -> settings -> Actions -> Workflow Permissions -> Read and write permissions
 > 읽기와 쓰기 모두 가능하도록 변경합니다.
-> 
