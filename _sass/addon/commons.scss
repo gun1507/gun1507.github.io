@@ -1727,3 +1727,73 @@ $sidebar-display: "sidebar-display";
     margin-left: 41px;
   }
 }
+
+.image__border {
+  border: 1px solid #ccc;
+  border-radius: 10px
+}
+
+.image__margin-right {
+  margin-right: 1rem;
+}
+
+@media print {
+  [hidden] {
+    display: none
+  }
+  .resume-header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center
+  }
+
+  .resume-header+h1,.resume-header+h2,.resume-header+h3,.resume-header+h4,.resume-header+h5,.resume-header+h6 {
+    margin-top: 0
+  }
+
+  .resume-header>img {
+    display: none
+  }
+
+  .resume-header .reusme__company {
+    margin: 0;
+    padding: 0
+  }
+
+  .resume-header .reusme__company--team-role,.resume-header .reusme__company--period {
+    font-size: 0.75rem;
+    color: #777
+  }
+
+  .resume-header .reusme__company--period::before {
+    content: "\00000a";
+    white-space: pre-wrap
+  }
+}
+
+.resume-header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center
+}
+
+.resume-header .reusme__company {
+  margin: 0;
+  padding: 0
+}
+
+.resume-header .reusme__company--team-role,.resume-header .reusme__company--period {
+  font-size: 0.75em;
+  color: #777
+}
+
+.resume-header .reusme__company--period::before {
+  content: '\00000a';
+  white-space: pre-wrap
+}
+
+@media all and (max-width: 900px) {
+  .image__border {
+    border-radius:5px
+  }
+}
