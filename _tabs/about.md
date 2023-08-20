@@ -349,4 +349,27 @@ order: 4
                     </ul>
             </ul>
     </details>
+    <details>
+        <summary>더 개발자, 커리어 가이드</summary>
+            <ul>
+                <li>
+                    교육 기간
+                </li>
+                    <ul>
+                        <li>2023년 07월 17일 ~ 2022년 08월 20일</li>
+                    </ul>
+                <li>
+                    교육 내용
+                </li>
+                    <ul>
+                        <li>동료와 팀, 더 나아가 회사에서 인정받고 더 많은 책임과 영향력을 갖고 일할 수 있는 개발자로의 성장 노하우</li>
+                    </ul>
+                <li>
+                    수료증
+                </li>
+                    <ul>
+                        <img src="/assets/img/certificates/carreerGuide.png" width="80%" style="margin-right: 1rem; border: 1px solid #ccc; border-radius: 10px"/>
+                    </ul>
+            </ul>
+    </details>
 </ul>
