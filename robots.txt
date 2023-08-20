@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: http://gun1507.github.io/sitemap.xml
